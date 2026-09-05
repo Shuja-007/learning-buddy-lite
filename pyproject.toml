@@ -1,0 +1,25 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Privacy-conscious local PDF RAG MCP server"
+readme = "README.md"
+authors = [{ name = "Hackathon submission" }]
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb",
+    "fastmcp",
+    "langchain-groq",
+    "langgraph",
+    "pydantic",
+    "pymupdf",
+    "python-dotenv",
+    "sentence-transformers",
+    "transformers",
+]
+
+[project.scripts]
+rag = "rag:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
