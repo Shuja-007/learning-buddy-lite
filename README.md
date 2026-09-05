@@ -102,21 +102,9 @@ uv run python Database/embedding_test.py
 - `embedding_test.py` uses a small synthetic fruit corpus to demonstrate
   semantic retrieval and cross-encoder reranking.
 
-## Host the demo for free
+## Check out the demo for the retriever
 
-`app.py` is a Streamlit demo built for hackathon judges. It lets visitors use
-their **own** PDF, then indexes it in memory and returns relevant passages.
-It does not include this project's private PDFs or API key.
-
-1. Push this repository to GitHub.
-2. Sign in at [Streamlit Community Cloud](https://share.streamlit.io) with
-   GitHub and select **Create app**.
-3. Select the repository, `main` branch, and `app.py` as the entrypoint.
-4. In **Advanced settings**, select Python 3.13, then deploy.
-
-The deployed `*.streamlit.app` URL is suitable for the hackathon's hosted
-project field. Public demos are not a suitable place for sensitive uploads;
-use the local MCP server for those documents.
+**Note:** This is just the retriever, the real use of this MCP server is when it is connected to a LLM, check out the video for its full capabilities!
 
 ## Privacy promise
 
