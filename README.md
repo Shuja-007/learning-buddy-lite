@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔒 Private PDF RAG
 
 > Turn a folder of PDFs into a searchable knowledge base — without handing
@@ -105,3 +106,7 @@ Built as a hackathon project and tested locally on a private PDF collection:
 
 Built for useful answers, private data, and fewer “where did I save that PDF?”
 moments.
+=======
+# learning-buddy
+An agentic RAG to help learn while chatting conversationally with your learn buddy!
+>>>>>>> 07d60dfa0b1c7856048fc58eb6cbb755c099b3b3
