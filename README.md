@@ -106,6 +106,8 @@ uv run python Database/embedding_test.py
 
 **Note:** This is just the retriever, the real use of this MCP server is when it is connected to a LLM, check out the video for its full capabilities!
 
+https://learning-buddy-qthhi3rtirtdeo2aegjetn.streamlit.app/
+
 ## Privacy promise
 
 This repository is intentionally **code-only**.
