@@ -15,6 +15,9 @@ Database/embedding_test_db/
 Database/*_test_db/
 Database/headings.txt
 Database/subheadings.txt
+# Legacy local-analysis scripts from the private prototype.
+Database/store_subheadings.py
+Database/test_retrieval.py
 *.sqlite3
 
 # Local tooling and model caches
