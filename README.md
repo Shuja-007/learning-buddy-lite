@@ -76,6 +76,17 @@ Explain the difference between parsing and lexical analysis.
 What is a context-free grammar?
 ```
 
+## 🎥 Demo
+
+Watch the project in action: [Private PDF RAG walkthrough on YouTube](https://youtu.be/wny1sOKOeA8)
+
+The screenshots below show the MCP tool returning a useful, grounded answer
+when relevant material exists—and clearly reporting when it does not.
+
+| No relevant result | Relevant retrieval |
+| --- | --- |
+| ![The assistant reports that no relevant material was found](assets/no-result-example.png) | ![The assistant returns retrieved material about LR parsing](assets/retrieval-example.png) |
+
 ## Validation
 
 The repository includes synthetic tests that can be run without any private
@@ -136,6 +147,3 @@ Built as a hackathon project and tested locally on a private PDF collection:
 
 Built for useful answers, private data, and fewer “where did I save that PDF?”
 moments.
-=======
-# learning-buddy
-An agentic RAG to help learn while chatting conversationally with your learn buddy!
