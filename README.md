@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🔒 Private PDF RAG
 
 > Turn a folder of PDFs into a searchable knowledge base — without handing
@@ -109,4 +108,3 @@ moments.
 =======
 # learning-buddy
 An agentic RAG to help learn while chatting conversationally with your learn buddy!
->>>>>>> 07d60dfa0b1c7856048fc58eb6cbb755c099b3b3
