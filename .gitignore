@@ -11,6 +11,7 @@ data/*.pdf
 data/*.PDF
 Database/chroma_db/
 Database/chroma_threshold_test_db/
+Database/embedding_test_db/
 Database/*_test_db/
 Database/headings.txt
 Database/subheadings.txt

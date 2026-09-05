@@ -76,6 +76,37 @@ Explain the difference between parsing and lexical analysis.
 What is a context-free grammar?
 ```
 
+## Validation
+
+The repository includes synthetic tests that can be run without any private
+PDFs:
+
+```powershell
+uv run python Database/chroma_threshold_test.py
+uv run python Database/embedding_test.py
+```
+
+- `chroma_threshold_test.py` exercises cosine-distance threshold behaviour
+  against direct, borderline, and unrelated passages.
+- `embedding_test.py` uses a small synthetic fruit corpus to demonstrate
+  semantic retrieval and cross-encoder reranking.
+
+## Host the demo for free
+
+`app.py` is a Streamlit demo built for hackathon judges. It lets visitors use
+their **own** PDF, then indexes it in memory and returns relevant passages.
+It does not include this project's private PDFs or API key.
+
+1. Push this repository to GitHub.
+2. Sign in at [Streamlit Community Cloud](https://share.streamlit.io) with
+   GitHub and select **Create app**.
+3. Select the repository, `main` branch, and `app.py` as the entrypoint.
+4. In **Advanced settings**, select Python 3.13, then deploy.
+
+The deployed `*.streamlit.app` URL is suitable for the hackathon's hosted
+project field. Public demos are not a suitable place for sensitive uploads;
+use the local MCP server for those documents.
+
 ## Privacy promise
 
 This repository is intentionally **code-only**.
